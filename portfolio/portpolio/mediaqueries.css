@@ -16,6 +16,8 @@
   #desktop-nav {
     display: none;
   }
+  /* reduce nav padding on medium screens */
+  /* keep default nav spacing for medium screens */
   #hamburger-nav {
     display: flex;
   }
@@ -81,10 +83,23 @@
   .logo {
     font-size: 1.5rem;
   }
+  /* reduce nav padding on small screens */
+  /* keep default nav spacing for small screens */
+  /* slightly reduce logo padding on small screens */
+  .logo {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+  }
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
+  }
+  /* make nav links easier to tap */
+  .nav-links a,
+  .menu-links a {
+    padding: 0.6rem 0.75rem;
+    display: inline-block;
   }
   .section__pic-container {
     width: auto;
