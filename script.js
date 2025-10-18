@@ -145,7 +145,7 @@ function toggleMenu() {
 (function () {
   const el = document.querySelector('.section__text__p2');
   if (!el) return;
-  const roles = ['Frontend Developer', 'Python Developer', 'Web Developer'];
+  const roles = ['Web Developer', 'Python Developer', 'Data Analyst'];
   let idx = 0;
 
   // wrap current text in fade span
